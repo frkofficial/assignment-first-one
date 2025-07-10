@@ -2,6 +2,8 @@
 
 .header{
     background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+    /* width: 1140px; */
   }
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -38,8 +40,91 @@
     font-size: 45px;
 }
 .banner{
-    padding-top: 200px;
+    
+     padding-top: 200px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.banner-next{
+        display: flex;
+        gap: 220px;
+       
+}
+.banner-content{
+    max-width: 517px;
 }
 .text-center{
     text-align: center;
   }
+  .section-title-one{
+    font-size: 42px;
+    font-weight: bold;
+  }
+  .section-title-two{
+    font-size: 38px;
+    font-weight: bold;
+  }
+  .section-description-one{
+    font-size: 20px;
+    color: #666669;
+  }
+  /* main styles */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  /* action style */
+  .action{
+      border-radius: 10px;
+      margin : 60px
+      
+  }
+  .user{
+    border-radius: 10px;
+    margin-top: 116px;
+    background-color: #b9b7f1;
+    padding: 50px, 140px;
+    text-align: center;
+    
+  }
+  .user-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .item-title{
+    font-weight: 600;
+    font-size: 80px;
+    color: #4E47FF;
+  }
+  /* card item */
+  .card-container{
+    display: flex;
+    gap: 30px;
+  }
+  .card{
+     width: 300px;
+    width: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e8e0e0;
+  }
+  .card-section{
+    margin: 137px;
+  }
+  .card-user-opinion{
+    font-size: 42px;
+    font-weight: bold;
+  }
+  .avatar{
+    display: flex;
+    margin-right: 10px;
+   
+  }
+   .avatar img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #ddd;
+    }
