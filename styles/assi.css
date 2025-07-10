@@ -1,0 +1,45 @@
+
+
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+  }
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style:normal;
+}
+
+.Stay-button{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color:#4E47FF;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+  }
+   
+  nav{
+    display: flex;
+    
+      align-items: center; /* majhe anbe */
+    justify-content:space-around; /* duita child ke dui pashe nibe , frk & baki gula */
+     
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.banner{
+    padding-top: 200px;
+}
+.text-center{
+    text-align: center;
+  }
