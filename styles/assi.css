@@ -63,6 +63,8 @@
   .section-title-two{
     font-size: 38px;
     font-weight: bold;
+    padding: 50px;
+    margin-top: 100pxpx;
   }
   .section-description-one{
     font-size: 20px;
@@ -81,20 +83,26 @@
   }
   .user{
     border-radius: 10px;
-    margin-top: 116px;
+    /* margin-top: 116px; */
     background-color: #b9b7f1;
-    padding: 50px, 140px;
+    padding: 80px, 140px;
     text-align: center;
     
   }
   .user-items{
     display: flex;
     justify-content: space-around;
+    margin-top: 0px;
   }
   .item-title{
     font-weight: 600;
     font-size: 80px;
     color: #4E47FF;
+    margin-bottom: 0px;
+  }
+  .item-description {
+        margin-top: 0px;
+         margin-bottom: 50px;
   }
   /* card item */
   .card-container{
@@ -132,6 +140,9 @@
         font-size: 97px;
         font-weight: bold;
     }
+    .touch{
+        display: flex;
+    }
     .form input[type= "text" ], form input[type= "email" ], textarea{
         height: 70px;
         border-radius: 5px;
@@ -141,7 +152,48 @@
         padding: 20px, 300px, 32px;
         margin-bottom: 19px;
     }
-  .form{
-    display: flex;
-  }
-    
+  
+
+  .footer-items {
+  margin: 0;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #8888a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.footer {
+  padding: 40px 20px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  color: #4f46e5; /* Indigo */
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #8888a0;
+}
+
+.footer-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #8888a0;
+  font-weight: 500;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
+
+  
