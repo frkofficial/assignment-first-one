@@ -128,3 +128,20 @@
       margin-bottom: 15px;
       border: 3px solid #ddd;
     }
+    .touch-font{
+        font-size: 97px;
+        font-weight: bold;
+    }
+    .form input[type= "text" ], form input[type= "email" ], textarea{
+        height: 70px;
+        border-radius: 5px;
+        background-color: white;
+        display: block;
+        width: 497px;
+        padding: 20px, 300px, 32px;
+        margin-bottom: 19px;
+    }
+  .form{
+    display: flex;
+  }
+    
